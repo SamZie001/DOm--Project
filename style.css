@@ -16,8 +16,33 @@ body{
 
 .noshow{
     display: none;
+} 
+.hrt{
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    margin-left: 20px;
+    cursor: pointer;
 }
-
+.show{
+    display: none;
+}
+.hert{
+    cursor: pointer;
+    background: url('./media/iconmonstr-heart-thin-240.png')no-repeat center center /cover;
+    width: 35px;
+    height: 35px;
+    background-size: 30px;
+    align-self: center;
+}
+.click-hert{
+    cursor: pointer;
+    background: url('./media/red-heart.png')no-repeat center center /cover;
+    width: 35px;
+    height: 35px;
+    background-size: 30px;
+    align-self: center;
+}
 .goods{
     background: #eee;
     height: 250;

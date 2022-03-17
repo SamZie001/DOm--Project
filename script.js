@@ -1,4 +1,5 @@
-const item = document.querySelector('.items') 
+const item = document.querySelector('.items');
+const heart = document.querySelectorAll('.hert')
 
 item.addEventListener('click', e=>{
     if(e.target.classList.contains('plus')){
@@ -22,6 +23,12 @@ item.addEventListener('click', e=>{
     if(e.target.classList.contains('exx')){
        e.target.parentNode.parentNode.setAttribute('class', 'noshow')
     }
-})
 
+});
+
+heart.forEach(h=>{
+    h.addEventListener('click', ()=>{
+        h.classList.toggle('click-hert')
+    })
+})
 
